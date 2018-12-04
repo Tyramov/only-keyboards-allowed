@@ -72,8 +72,8 @@ html {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
 
-.skip-links {
-  background-color: yellow;
+a:focus {
+  outline: 3px solid yellow;
 }
 
 @media only screen and (min-width: 60em) {
